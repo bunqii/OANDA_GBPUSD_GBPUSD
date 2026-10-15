@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "GBP_USD",
+  "granularity": "M1",
+  "chunk_start": "2016-10-01",
+  "chunk_end": "2016-10-31",
+  "parquet_file": "OANDA_GBPUSD_GBPUSD_1_2016-10-01_to_2016-10-31.parquet",
+  "data_file": "OANDA_GBPUSD_GBPUSD_1_2016-10-01_to_2016-10-31.parquet",
+  "row_count": 28555,
+  "first_candle": {
+    "time": 1475442000,
+    "Time": "2016-10-02T21:00:00.000000000Z",
+    "open": 1.29183,
+    "high": 1.29328,
+    "low": 1.29131,
+    "close": 1.29221,
+    "volume": 19
+  },
+  "last_candle": {
+    "time": 1477958340,
+    "Time": "2016-10-31T23:59:00.000000000Z",
+    "open": 1.22334,
+    "high": 1.22355,
+    "low": 1.22332,
+    "close": 1.22355,
+    "volume": 11
+  },
+  "csv_file": "OANDA_GBPUSD_GBPUSD_1_2016-10-01_to_2016-10-31.parquet",
+  "csv_row_count": 28555,
+  "csv_first_candle": {
+    "time": 1475442000,
+    "Time": "2016-10-02T21:00:00.000000000Z",
+    "open": 1.29183,
+    "high": 1.29328,
+    "low": 1.29131,
+    "close": 1.29221,
+    "volume": 19
+  },
+  "csv_last_candle": {
+    "time": 1477958340,
+    "Time": "2016-10-31T23:59:00.000000000Z",
+    "open": 1.22334,
+    "high": 1.22355,
+    "low": 1.22332,
+    "close": 1.22355,
+    "volume": 11
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T07:49:34.000000000Z",
+  "generated_at": "2026-10-15T07:49:34.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2572,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2016-09-30T06:59:00Z",
+        "to": "2016-10-03T18:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-03T18:19:00Z",
+        "to": "2016-10-07T05:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-07T05:39:00Z",
+        "to": "2016-10-10T16:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-10T16:59:00Z",
+        "to": "2016-10-14T04:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-14T04:19:00Z",
+        "to": "2016-10-17T15:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-17T15:39:00Z",
+        "to": "2016-10-21T02:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-21T02:59:00Z",
+        "to": "2016-10-24T14:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-24T14:19:00Z",
+        "to": "2016-10-28T01:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-28T01:39:00Z",
+        "to": "2016-10-31T12:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-10-31T12:59:00Z",
+        "to": "2016-11-04T00:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

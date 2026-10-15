@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "GBP_USD",
+  "granularity": "M1",
+  "chunk_start": "2021-01-01",
+  "chunk_end": "2021-01-31",
+  "parquet_file": "OANDA_GBPUSD_GBPUSD_1_2021-01-01_to_2021-01-31.parquet",
+  "data_file": "OANDA_GBPUSD_GBPUSD_1_2021-01-01_to_2021-01-31.parquet",
+  "row_count": 27986,
+  "first_candle": {
+    "time": 1609711200,
+    "Time": "2021-01-03T22:00:00.000000000Z",
+    "open": 1.36527,
+    "high": 1.36543,
+    "low": 1.365,
+    "close": 1.36531,
+    "volume": 9
+  },
+  "last_candle": {
+    "time": 1612137540,
+    "Time": "2021-01-31T23:59:00.000000000Z",
+    "open": 1.36961,
+    "high": 1.3698,
+    "low": 1.3696,
+    "close": 1.36978,
+    "volume": 36
+  },
+  "csv_file": "OANDA_GBPUSD_GBPUSD_1_2021-01-01_to_2021-01-31.parquet",
+  "csv_row_count": 27986,
+  "csv_first_candle": {
+    "time": 1609711200,
+    "Time": "2021-01-03T22:00:00.000000000Z",
+    "open": 1.36527,
+    "high": 1.36543,
+    "low": 1.365,
+    "close": 1.36531,
+    "volume": 9
+  },
+  "csv_last_candle": {
+    "time": 1612137540,
+    "Time": "2021-01-31T23:59:00.000000000Z",
+    "open": 1.36961,
+    "high": 1.3698,
+    "low": 1.3696,
+    "close": 1.36978,
+    "volume": 36
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T07:50:12.000000000Z",
+  "generated_at": "2026-10-15T07:50:12.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2572,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2020-12-30T08:59:00Z",
+        "to": "2021-01-02T20:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-02T20:19:00Z",
+        "to": "2021-01-06T07:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-06T07:39:00Z",
+        "to": "2021-01-09T18:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-09T18:59:00Z",
+        "to": "2021-01-13T06:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-13T06:19:00Z",
+        "to": "2021-01-16T17:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-16T17:39:00Z",
+        "to": "2021-01-20T04:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-20T04:59:00Z",
+        "to": "2021-01-23T16:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-23T16:19:00Z",
+        "to": "2021-01-27T03:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-27T03:39:00Z",
+        "to": "2021-01-30T14:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2021-01-30T14:59:00Z",
+        "to": "2021-02-03T02:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

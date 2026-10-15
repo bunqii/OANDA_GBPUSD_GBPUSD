@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "GBP_USD",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_GBPUSD_GBPUSD_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_GBPUSD_GBPUSD_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2879,
+  "first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 1.61592,
+    "high": 1.61685,
+    "low": 1.61082,
+    "close": 1.61122,
+    "volume": 408
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 1.31137,
+    "high": 1.32843,
+    "low": 1.3106,
+    "close": 1.32606,
+    "volume": 18916
+  },
+  "csv_file": "OANDA_GBPUSD_GBPUSD_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2879,
+  "csv_first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 1.61592,
+    "high": 1.61685,
+    "low": 1.61082,
+    "close": 1.61122,
+    "volume": 408
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 1.31137,
+    "high": 1.32843,
+    "low": 1.3106,
+    "close": 1.32606,
+    "volume": 18916
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T07:50:52.000000000Z",
+  "generated_at": "2026-10-15T07:50:52.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2002-05-06T21:00:00Z",
+        "to": "2016-01-13T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-13T21:00:00Z",
+        "to": "2026-10-14T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
